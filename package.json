@@ -1,0 +1,25 @@
+{
+  "name": "fxdpi",
+  "title": "fxdpi",
+  "id": "jid1-NBeCpDs9Bnbk3Q",
+  "description": "Switch between HiDPI and normal mode with one click",
+  "author": "Daniel Seither",
+  "license": "MIT",
+  "version": "0.1",
+
+  "preferences": [
+	  {
+		"name": "hidpi",
+		"title": "Enable HiDPI mode",
+		"type": "bool",
+		"value": false
+	  },
+	  {
+	  	"name": "factor",
+	  	"title": "Scaling factor",
+	  	"type": "string",
+	  	"value": "1.4"
+	  }
+  ]
+}
+
