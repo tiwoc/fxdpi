@@ -8,9 +8,9 @@ If you simply want to run the latest release and get automatic updates, just ins
 
 If you don't want to go the easy route:
 
-* [Install and activate the Firefox SDK](https://developer.mozilla.org/en-US/Add-ons/SDK/Tutorials/Installation)
+* [Install jpm](https://developer.mozilla.org/en-US/Add-ons/SDK/Tools/jpm#Installation)
 * `cd` to a clone of this repository
-* Run `cfx xpi`
+* Run `jpm xpi`
 * Open the xpi file with Firefox
 
 ## How it works

@@ -1,11 +1,12 @@
 {
   "name": "fxdpi",
   "title": "fxdpi",
-  "id": "jid1-NBeCpDs9Bnbk3Q",
+  "id": "jid1-NBeCpDs9Bnbk3Q@jetpack",
   "description": "Switch between HiDPI and normal mode with one click",
   "author": "Daniel Seither",
   "license": "MIT",
   "version": "0.1.1",
+  "main": "lib/main.js",
 
   "preferences": [
 	  {

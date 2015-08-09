@@ -1,0 +1,8 @@
+.git
+.gitignore
+.jpmignore
+*.xpi
+*.swp
+/node_modules
+/screenshots
+/test
