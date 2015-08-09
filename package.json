@@ -16,10 +16,22 @@
 		"value": false
 	  },
 	  {
-	  	"name": "factor",
-	  	"title": "Scaling factor",
-	  	"type": "string",
-	  	"value": "1.4"
+		"name": "factor",
+		"title": "Scaling factor when enabled",
+		"description": "Values greater than 1 make pages larger. For example, 1.5 zooms to 150%.",
+		"type": "string",
+		"value": "1.4"
+	  },
+	  {
+		"name": "disabledFactor",
+		"title": "Scaling factor when disabled",
+		"description": "Scaling factor to use when HiDPI mode is off.",
+		"type": "radio",
+		"value": "default",
+		"options": [
+			{ "value": "default", "label": "let Firefox decide" },
+			{ "value": "force", "label": "force 1.0 (100%)" }
+		]
 	  }
   ]
 }
